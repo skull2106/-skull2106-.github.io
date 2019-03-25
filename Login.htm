@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<title>Temp Facebook</title>
+<link href="StyleSheet.css?v=1.1" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="header">
+<img src="GUVI_LOGO.png" height ="49px" width = 160px alt="LOGO"/>
+<a class="active" href="Login.htm">Log in</a>
+<a href="Sign_up.html"> Sign Up </a> 
+</div>
+<div class="form">
+<form style="display: block" class="forms" id="login-form">
+<div id="error">
+        <!-- error will be shown here ! -->
+        </div>
+	<div class="form-group">
+Username:<br>
+<input type="text" name="username" placeholder="Username" id="username">
+<span id="check-e"> </span>
+</div>
+<br>
+<div class="form-group">
+Password:<br>
+<input type="password" name="password" placeholder="Password" id ="password">
+</div>
+<div class="form-group">
+<button style="padding:5px 5px" type ="submit" value="Submit" class="btn btn-default" id ="btn-login" name="btn-login">
+<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In </button>
+</form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script type="text/javascript" src="l_validation.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
