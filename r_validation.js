@@ -76,9 +76,6 @@ $(document).ready(function()
         }
         else if(data=="registered")
         {
-		var person = { name: '#name', Gender : '#gender', DOB : '#bday', Email:'#email',Degree:'#degree'};
-		var myJSON = JSON.stringify(person);
-		window.localStorage.setItem("#username", myJSON);
         
          alert("Registered successfully");
          window.location='Login.htm';

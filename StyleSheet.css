@@ -16,6 +16,10 @@ font-size:17px;
 background-color:#4CAF50;
 color: black;
 }
+.header img{
+	height :48px;
+	width : 160px; 
+}
 .header a.active{
  background-color:#4CAF50;
  color: white;
@@ -76,9 +80,10 @@ color: black;
 }
 .btn.btn-default
 {
+	style="padding:5px 5px";
+	background-color="#D3D3D3"
 	text-align:centre;
 	padding: 14px 16px;
 	font-size :18px;
-	background-color : #Grey;
 	color: white;
 }
